@@ -3,16 +3,17 @@
 
 body {
 	font: normal normal 13px/16px "Open Sans", sans-serif;
-	background: #89bafb;
+	background: #ffffff;
 }
 
 .container {
 	padding: 20px;
-	width: 300px;
+	width: 500px;
 	margin: 0 auto;
 	margin-top: 40px;
-	background: white;
+	background: rgb(192, 221, 249);
 	border-radius: 5px;
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 form {
@@ -21,6 +22,7 @@ form {
 
 input {
 	padding: 4px 15px 4px 5px;
+	width: 400px;
 }
 
 #button {
@@ -30,6 +32,7 @@ input {
 	border-radius: 5px;
 	text-align:center;
 	margin-top:2px;
+	margin-left: 10px;
 	padding: 5px 15px;
 }
 
@@ -66,12 +69,12 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #2c30af;
 	font-weight: 800;
 }
 
 li > crossOutButton:hover {
 	transform: scale(1.4);
-	color: #01434f;
+	color: #2c30af;
 	transition: 1.2 ease;
 }
